@@ -1,0 +1,6 @@
+
+
+php artisan make:model Shift -m
+php artisan migrate
+php artisan make:resource ShiftResource
+php artisan make:controller ShiftController --api --model=Shift
